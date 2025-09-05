@@ -78,13 +78,13 @@ We replace the original convolutional layers in pre-trained diffusion models by 
 <!-- </details> -->
 
 ## <a name="setup"></a> ⚙️ Setup
-To run in google-colab simply run
+To setup for Google-Colab, simply open its terminal and run:
 ```bash
 source colab_setup.sh
 ```
 Then, while generating image, put `/content/logs` for the `logging_dir` argument. 
 
-For other environments use
+For other environments use:
 ```bash
 conda create -n fouriscale python=3.8
 conda activate fouriscale
