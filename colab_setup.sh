@@ -4,4 +4,5 @@ source ~/.bashrc
 conda create -n fouriscale python=3.8
 conda activate fouriscale
 pip install -r requirements.txt
+mkdir /content/logs
 echo "Colab is ready for fouriscale"  
